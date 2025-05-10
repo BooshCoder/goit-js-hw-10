@@ -21,7 +21,7 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-  onChange(selectedDates) {
+  onClose(selectedDates) {
     const selected = selectedDates[0];
     const now = new Date();
     if (selected <= now) {
